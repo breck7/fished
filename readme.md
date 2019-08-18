@@ -6,11 +6,17 @@ A text serialization format for Fish Shell's history file.
 
 
 
+
+    command git checkout file.txt
+     when 1565133286
+     pwd /home/me/dir/
+     paths file.txt
+
 ## Quick facts about fished
 
 - fished has 6 node types.
 - fished has 3 cell types
-- The source code for fished is 26 lines long.
+- The source code for fished is 31 lines long.
 
 ## Installing
 

@@ -13,6 +13,11 @@ getGrammarProgramRoot() {
  description A text serialization format for Fish Shell's history file.
  root
  inScope commandNode
+ example
+  command git checkout file.txt
+   when 1565133286
+   pwd /home/me/dir/
+   paths file.txt
 anyCell
  highlightScope string
 intCell

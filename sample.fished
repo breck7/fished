@@ -1,0 +1,4 @@
+command git checkout file.txt
+ when 1565133286
+ pwd /home/me/dir/
+ paths file.txt

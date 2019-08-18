@@ -1,7 +1,10 @@
 <script src="node_modules/jtree/products/jtree.browser.js"></script>
 <script src="fished.browser.js"></script>
 <script>
-const sampleCode = ``
+const sampleCode = `command git checkout file.txt
+ when 1565133286
+ pwd /home/me/dir/
+ paths file.txt`
 const program = new fished(sampleCode)
 const errors = program.getAllErrors()
 console.log("Sample program compiled with " + errors.length + " errors.")
