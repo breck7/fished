@@ -1,0 +1,1 @@
+module.exports = require("./fished.node.js")
